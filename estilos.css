@@ -76,3 +76,16 @@ nav {
     text-align: center;
     padding-top: 3rem;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#ladofoto {
+    padding: 2rem;
+}
+
+#datosgenerales {
+    padding: 2rem;
+}
