@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+
+@font-face {
+    font-family: GreaterCreationBold;
+    src: url(fonts/GreaterCreation.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: "Exo2", sans-serif;
+}
+
+/*comienzo de aplicaciones*/
+
+h1, h2 {
+    font-family: 'GreaterCreationBold', bold;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: rgb(224, 197, 144);
+    text-align: center;
+    padding: 15rem;
+    padding-bottom: 20px;
+    margin: 0%;
+}
+
+h2{
+
+}
+
+h3 {
+    font-family: "exo 2", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    text-wrap-style: balance;
+}
+
+#sobremi {
+    text-align: left;
+    max-width: 300px;
+}
+
+ul {
+    list-style: bengali;
+}
+
+body {
+    background-color: rgb(224, 197, 144);
+}
+
+#color1 {
+    background-color: rgb(23, 42, 56);
+    height:700px;
+}
+
+#subtitle {
+    font-family: "exo 2", sans-serif;
+    font-weight: 150;
+    font-size: 1.7rem;
+    color: rgb(224, 197, 144);
+    text-align: center;
+}
+
+a {
+    font-family: "exo 2", sans-serif;
+    padding: 5rem;
+}
+
+nav {
+    text-align: center;
+    padding-top: 3rem;
+}
