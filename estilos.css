@@ -36,12 +36,8 @@ h3 {
     font-weight: 700;
 }
 
-p {
-    text-align: center;
-    text-wrap-style: balance;
-}
-
 #sobremi {
+    text-wrap-style: balance;
     text-align: left;
     max-width: 300px;
 }
@@ -55,6 +51,7 @@ body {
 }
 
 #color1 {
+    text-align: center;
     background-color: rgb(23, 42, 56);
     height:700px;
 }
@@ -88,4 +85,14 @@ main {
 
 #datosgenerales {
     padding: 2rem;
+}
+
+footer {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+#links {
+    padding-top: inherit;
 }
