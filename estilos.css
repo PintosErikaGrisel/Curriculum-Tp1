@@ -14,26 +14,26 @@
 
 /*comienzo de aplicaciones*/
 
-h1, h2 {
+h1 {
     font-family: 'GreaterCreationBold', bold;
-}
-
-h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: rgb(224, 197, 144);
-    text-align: center;
-    padding: 15rem;
-    padding-bottom: 20px;
-    margin: 0%;
 }
 
-h2{
+#subtitle {
+    font-family: "exo 2", sans-serif;
+    font-weight: 150;
+    font-size: 1.7rem;
+    color: rgb(224, 197, 144);
+}
 
+h2 {
+    font-size: 1.7rem;
+    color: rgb(23, 42, 56);
 }
 
 h3 {
-    font-family: "exo 2", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #sobremi {
@@ -53,20 +53,21 @@ body {
 header {
     text-align: center;
     background-color: rgb(23, 42, 56);
-    height:700px;
+    height:100px;
 }
 
-#subtitle {
-    font-family: "exo 2", sans-serif;
-    font-weight: 150;
-    font-size: 1.7rem;
+#navheader {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botones {
     color: rgb(224, 197, 144);
-    text-align: center;
-}
-
-a {
-    font-family: "exo 2", sans-serif;
-    padding: 5rem;
+    text-decoration: none;
+    border: solid;
+    border-color: rgb(224, 197, 144);
+    border-radius: 10px;
+    padding: 7px;
 }
 
 nav {
@@ -74,13 +75,30 @@ nav {
     padding-top: 3rem;
 }
 
+#mainconfondo {
+    text-align: center;
+    background-color: rgb(23, 42, 56);
+    height:98.4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    font-family: "exo 2", sans-serif;
+}
+
 main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 #ladofoto {
     padding: 2rem;
+    border: solid;
+    border-color: rgb(23, 42, 56);
+    border-radius: 25px;
 }
 
 #datosgenerales {
@@ -88,11 +106,27 @@ main {
 }
 
 footer {
+    background-color: rgb(23, 42, 56);
     display: flex;
     padding: 2rem;
     justify-content: space-between;
 }
 
 #links {
-    padding-top: inherit;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footext {
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 197, 144);
 }
